@@ -5,9 +5,9 @@ public class ScannerMethod {
 
     static double area;
 
-    
 
-    static void calculateShape(){
+
+    void calculateShape(){
         Scanner typeIn = new Scanner(System.in);
 
         System.out.println("Engineer: Please input the length of the box: ");
@@ -23,12 +23,11 @@ public class ScannerMethod {
 
         System.out.println("_________________________");
 
-        typeIn.close();
 
 
         
         Scanner typeIn2 = new Scanner(System.in);
-        System.out.println("Engineer: Pleaes input the base of the Triangle: ");
+        System.out.println("Engineer: Please input the base of the Triangle: ");
         double base = typeIn2.nextDouble();
         System.out.println("Engineer: Please input the height of the Triangle: ");
         double height = typeIn2.nextDouble();
@@ -37,9 +36,14 @@ public class ScannerMethod {
 
         System.out.println("The arae of the Triangle is: " + area + "cm2");
         System.out.println("_____________________");
+
+
+
+        typeIn.close();
         typeIn2.close();
     }
     public static void main(String[] args) {
-        calculateShape();
+        ScannerMethod Calculate = new ScannerMethod();
+        Calculate.calculateShape();
     }
 }
