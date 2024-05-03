@@ -10,10 +10,13 @@ public class ScannerMethod {
     void calculateShape(){
         Scanner typeIn = new Scanner(System.in);
 
-        System.out.println("Engineer: Please input the length of the box: ");
+        System.out.print("Engineer: Please input the length of the box: ");
         int length = typeIn.nextInt();
-        System.out.println("Engineer: Please input the breadth of the box: ");
+        System.out.print("Engineer: Please input the breadth of the box: ");
         int breadth = typeIn.nextInt();
+
+
+        
         int perimeter = 2 * (length * breadth);
         area = length * breadth;
 
@@ -27,9 +30,9 @@ public class ScannerMethod {
 
         
         Scanner typeIn2 = new Scanner(System.in);
-        System.out.println("Engineer: Please input the base of the Triangle: ");
+        System.out.print("Engineer: Please input the base of the Triangle: ");
         double base = typeIn2.nextDouble();
-        System.out.println("Engineer: Please input the height of the Triangle: ");
+        System.out.print("Engineer: Please input the height of the Triangle: ");
         double height = typeIn2.nextDouble();
 
         area = 0.5 * base * height;
