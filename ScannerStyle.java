@@ -20,7 +20,7 @@ public class ScannerStyle {
 
 
         Scanner typeIn2 = new Scanner(System.in);
-        System.out.print("Engineer: Pleaes input the base of the Triangle: ");
+        System.out.print("Engineer: Please input the base of the Triangle: ");
         double base = typeIn2.nextDouble();
         System.out.print("Engineer: Please input the height of the Triangle: ");
         double height = typeIn2.nextDouble();
