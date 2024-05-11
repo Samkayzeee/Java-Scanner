@@ -21,8 +21,8 @@ public class ScannerMethod {
         area = length * breadth;
 
 
-        System.out.println("The perimeter of the box is\t " + perimeter + "cm");
-        System.out.println("The area of the box is\t " + area + "cm2");
+        System.out.println("\nThe perimeter of the box is\t " + perimeter + "cm");
+        System.out.println("\nThe area of the box is\t " + area + "cm2");
 
         System.out.println("_________________________");
 
@@ -30,6 +30,7 @@ public class ScannerMethod {
 
         
         Scanner typeIn2 = new Scanner(System.in);
+
         System.out.print("Engineer: Please input the base of the Triangle: ");
         double base = typeIn2.nextDouble();
         System.out.print("Engineer: Please input the height of the Triangle: ");
